@@ -7,7 +7,6 @@ import color from '../imgs/color.png'
 import counter from '../imgs/counter.png'
 import quotes from '../imgs/quotes.png'
 import svgWriting from '../imgs/svg-writing.png'
-import threeByTwo from '../imgs/threeByTwo.jpeg'
 
 const StyledGrid = styled.div`
   display: grid;
@@ -128,14 +127,6 @@ function Project() {
       </StyledDiv>
       <StyledDiv>
         <Image src={birds} alt="Birds" />
-        <Description>
-          <Title>Calculator</Title>
-          <Desc>ReactJS, HTML, SCSS</Desc>
-          <span>
-          <Button demo>DEMO</Button>
-          <Button>CODE</Button>
-          </span>
-        </Description>
       </StyledDiv>
       <StyledDiv>
         <Image src={quotes} alt="Quote Machine" />

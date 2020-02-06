@@ -11,7 +11,6 @@ const StyledFooter = styled.footer`
   font-size: calc(10px + 2vmin);
   color: white;
 `
-
 const StyledLink = styled.a`
   color: white;
   text-decoration: none;
@@ -24,12 +23,11 @@ const StyledLink = styled.a`
   &:hover { text-decoration: underline; }
 `
 
-function Header() {
+function Footer() {
   return (
     <StyledFooter>
       <StyledLink href="https://sgedye.github.io" target="_black" rel="noreffer noopener"> © sgedye</StyledLink>
     </StyledFooter>
   )
 }
-
-export default Header
+export default Footer
