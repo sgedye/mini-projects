@@ -4,6 +4,7 @@ import Description from '../Elements/Description'
 
 import birds from '../imgs/birds.jpg'
 import color from '../imgs/color.png'
+import counter from '../imgs/counter.png'
 import quotes from '../imgs/quotes.png'
 import svgWriting from '../imgs/svg-writing.png'
 import threeByTwo from '../imgs/threeByTwo.jpeg'
@@ -167,8 +168,22 @@ function Project() {
         <Description>HOWDY</Description>
       </StyledDiv>
       <StyledDiv>
-        <Image src={threeByTwo} alt="Three By Two" />
-        <Description>HOWDY</Description>
+        <Image src={counter} alt="React Counter" />
+        <Description>
+          <Title>React Counter</Title>
+          <Desc>ReactJS, HTML, CSS</Desc>
+          <span>
+            <a href="https://sgedye.github.io/counter" target="_blank" rel="noopener noreferrer">
+              <Button demo>DEMO</Button>
+            </a>
+            <a href="https://github.com/sgedye/counter" target="_blank" rel="noopener noreferrer">
+              <Button>CODE</Button>
+            </a>
+          </span>
+        </Description>
+      </StyledDiv>
+      <StyledDiv>
+        <Image src={birds} alt="Birds" />
         <Description>
           <Title>Budget App</Title>
           <Desc>JavaScript, HTML, CSS</Desc>
@@ -177,10 +192,6 @@ function Project() {
           <Button>CODE</Button>
           </span>
         </Description>
-      </StyledDiv>
-      <StyledDiv>
-        <Image src={birds} alt="Birds" />
-        <Description>HOWDY</Description>
       </StyledDiv>
       <StyledDiv>
         <Image src={svgWriting} alt="SVG Writing" />
