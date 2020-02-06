@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/mini-projects/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/mini-projects/static/js/main.a46c513f.chunk.js",
+    "main.js.map": "/mini-projects/static/js/main.a46c513f.chunk.js.map",
+    "runtime-main.js": "/mini-projects/static/js/runtime-main.036eb54d.js",
+    "runtime-main.js.map": "/mini-projects/static/js/runtime-main.036eb54d.js.map",
+    "static/js/2.1d401f9a.chunk.js": "/mini-projects/static/js/2.1d401f9a.chunk.js",
+    "static/js/2.1d401f9a.chunk.js.map": "/mini-projects/static/js/2.1d401f9a.chunk.js.map",
+    "index.html": "/mini-projects/index.html",
+    "precache-manifest.cca8abb5ae714fc4f70f0917aa2c9e92.js": "/mini-projects/precache-manifest.cca8abb5ae714fc4f70f0917aa2c9e92.js",
+    "service-worker.js": "/mini-projects/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/mini-projects/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.1d401f9a.chunk.js.LICENSE.txt": "/mini-projects/static/js/2.1d401f9a.chunk.js.LICENSE.txt",
+    "static/media/birds.jpg": "/mini-projects/static/media/birds.aff7043c.jpg",
+    "static/media/color.png": "/mini-projects/static/media/color.0476be31.png",
+    "static/media/counter.png": "/mini-projects/static/media/counter.825d2661.png",
+    "static/media/quotes.png": "/mini-projects/static/media/quotes.60454a84.png",
+    "static/media/svg-writing.png": "/mini-projects/static/media/svg-writing.4e01398c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.036eb54d.js",
+    "static/js/2.1d401f9a.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.a46c513f.chunk.js"
+  ]
+}
