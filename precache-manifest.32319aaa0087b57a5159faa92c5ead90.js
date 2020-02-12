@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "067fe2416d2f5db6ee00a5859c4673b2",
+    "revision": "f4a95c0749b6ca48cf6b7146c09476c9",
     "url": "/mini-projects/index.html"
   },
   {
-    "revision": "f55465268fa28adaeff2",
+    "revision": "21e7b0be79350f494828",
     "url": "/mini-projects/static/css/main.fe871f53.chunk.css"
   },
   {
@@ -16,20 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mini-projects/static/js/2.e83b79c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f55465268fa28adaeff2",
-    "url": "/mini-projects/static/js/main.09d24c3b.chunk.js"
+    "revision": "21e7b0be79350f494828",
+    "url": "/mini-projects/static/js/main.6f50673f.chunk.js"
   },
   {
     "revision": "42ad75350cc7b6b3afdc",
     "url": "/mini-projects/static/js/runtime-main.036eb54d.js"
   },
   {
-    "revision": "aff7043c0ae20a1a947732ba028f1505",
-    "url": "/mini-projects/static/media/birds.aff7043c.jpg"
-  },
-  {
     "revision": "2c7d0b8d3cf3ac2a06ebd050de9e9181",
     "url": "/mini-projects/static/media/budget.2c7d0b8d.png"
+  },
+  {
+    "revision": "f92dc35ca2dd93bffccb0afdde1821d7",
+    "url": "/mini-projects/static/media/calculator.f92dc35c.png"
   },
   {
     "revision": "206be6cb1165398b2fa2b368fea71c5b",
