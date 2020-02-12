@@ -4,6 +4,7 @@ import '../styles/animate.css'
 import Description from '../Elements/Description'
 
 import birds from '../imgs/birds.jpg'
+import budget from '../imgs/budget.png'
 import color from '../imgs/color.png'
 import counter from '../imgs/counter.png'
 import quotes from '../imgs/quotes.png'
@@ -208,10 +209,19 @@ function Project() {
         </Description>
       </StyledDiv>
       <StyledDiv>
-        <Image src={birds} alt="Birds" />
+        <Image src={budget} alt="Budget Application" />
         <Description>
           <Title>Budget App</Title>
+          <Hr />
           <Desc>JavaScript, HTML, CSS</Desc>
+          <span>
+            <a href="https://github.com/sgedye/budget-app" target="_blank" rel="noopener noreferrer">
+              <Button>CODE</Button>
+            </a>
+            <a href="https://sgedye.github.io/budget-app" target="_blank" rel="noopener noreferrer">
+              <Button demo>DEMO</Button>
+            </a>
+          </span>
         </Description>
       </StyledDiv>
       <StyledDiv>
