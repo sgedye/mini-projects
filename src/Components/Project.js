@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import '../styles/animate.css'
 import Description from '../Elements/Description'
 
-import birds from '../imgs/birds.jpg'
 import budget from '../imgs/budget.png'
+import calculator from '../imgs/calculator.png'
 import color from '../imgs/color.png'
 import counter from '../imgs/counter.png'
 import quotes from '../imgs/quotes.png'
@@ -186,10 +186,14 @@ function Project() {
         </Description>
       </StyledDiv>
       <StyledDiv>
-        <Image src={birds} alt="Birds" />
+        <Image src={calculator} alt="React Calculator" />
         <Description>
-          <h3>SVG Animation</h3>
-          <p>HTML, SCSS</p>
+          <Title>React Calculator</Title>
+          <Hr />
+          <Desc>ReactJS, HTML, Styled Components, SCSS, CSS</Desc>
+          <span>
+            In progress
+          </span>
         </Description>
       </StyledDiv>
       <StyledDiv>
