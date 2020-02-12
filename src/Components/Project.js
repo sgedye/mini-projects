@@ -213,7 +213,7 @@ function Project() {
         <Description>
           <Title>Budget App</Title>
           <Hr />
-          <Desc>JavaScript, HTML, CSS</Desc>
+          <Desc>JavaScript, HTML, Bootstrap, CSS</Desc>
           <span>
             <a href="https://github.com/sgedye/budget-app" target="_blank" rel="noopener noreferrer">
               <Button>CODE</Button>
