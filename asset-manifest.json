@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/mini-projects/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/mini-projects/static/js/main.a46c513f.chunk.js",
-    "main.js.map": "/mini-projects/static/js/main.a46c513f.chunk.js.map",
+    "main.css": "/mini-projects/static/css/main.fe871f53.chunk.css",
+    "main.js": "/mini-projects/static/js/main.09d24c3b.chunk.js",
+    "main.js.map": "/mini-projects/static/js/main.09d24c3b.chunk.js.map",
     "runtime-main.js": "/mini-projects/static/js/runtime-main.036eb54d.js",
     "runtime-main.js.map": "/mini-projects/static/js/runtime-main.036eb54d.js.map",
-    "static/js/2.1d401f9a.chunk.js": "/mini-projects/static/js/2.1d401f9a.chunk.js",
-    "static/js/2.1d401f9a.chunk.js.map": "/mini-projects/static/js/2.1d401f9a.chunk.js.map",
+    "static/js/2.e83b79c8.chunk.js": "/mini-projects/static/js/2.e83b79c8.chunk.js",
+    "static/js/2.e83b79c8.chunk.js.map": "/mini-projects/static/js/2.e83b79c8.chunk.js.map",
     "index.html": "/mini-projects/index.html",
-    "precache-manifest.cca8abb5ae714fc4f70f0917aa2c9e92.js": "/mini-projects/precache-manifest.cca8abb5ae714fc4f70f0917aa2c9e92.js",
+    "precache-manifest.37a39436cc379629e936b6dd85b84c40.js": "/mini-projects/precache-manifest.37a39436cc379629e936b6dd85b84c40.js",
     "service-worker.js": "/mini-projects/service-worker.js",
-    "static/css/main.5ecd60fb.chunk.css.map": "/mini-projects/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.1d401f9a.chunk.js.LICENSE.txt": "/mini-projects/static/js/2.1d401f9a.chunk.js.LICENSE.txt",
+    "static/css/main.fe871f53.chunk.css.map": "/mini-projects/static/css/main.fe871f53.chunk.css.map",
+    "static/js/2.e83b79c8.chunk.js.LICENSE.txt": "/mini-projects/static/js/2.e83b79c8.chunk.js.LICENSE.txt",
     "static/media/birds.jpg": "/mini-projects/static/media/birds.aff7043c.jpg",
-    "static/media/color.png": "/mini-projects/static/media/color.0476be31.png",
-    "static/media/counter.png": "/mini-projects/static/media/counter.825d2661.png",
+    "static/media/budget.png": "/mini-projects/static/media/budget.2c7d0b8d.png",
+    "static/media/color.png": "/mini-projects/static/media/color.206be6cb.png",
+    "static/media/counter.png": "/mini-projects/static/media/counter.25a424be.png",
     "static/media/quotes.png": "/mini-projects/static/media/quotes.60454a84.png",
+    "static/media/selector.png": "/mini-projects/static/media/selector.a34fa98f.png",
+    "static/media/slideshow.png": "/mini-projects/static/media/slideshow.42d568aa.png",
     "static/media/svg-writing.png": "/mini-projects/static/media/svg-writing.4e01398c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.036eb54d.js",
-    "static/js/2.1d401f9a.chunk.js",
-    "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.a46c513f.chunk.js"
+    "static/js/2.e83b79c8.chunk.js",
+    "static/css/main.fe871f53.chunk.css",
+    "static/js/main.09d24c3b.chunk.js"
   ]
 }
