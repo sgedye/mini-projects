@@ -6,6 +6,8 @@ import birds from '../imgs/birds.jpg'
 import color from '../imgs/color.png'
 import counter from '../imgs/counter.png'
 import quotes from '../imgs/quotes.png'
+import slideshow from '../imgs/slideshow.png'
+import selector from '../imgs/selector.png'
 import svgWriting from '../imgs/svg-writing.png'
 
 const StyledGrid = styled.div`
@@ -126,7 +128,19 @@ function Project() {
         </Description>
       </StyledDiv>
       <StyledDiv>
-        <Image src={birds} alt="Birds" />
+        <Image src={selector} alt="jQuery animal selector" />
+        <Description>
+          <Title>Animal Selector</Title>
+          <Desc>jQuery, HTML, Bootstrap, SCSS</Desc>
+          <span>
+            <a href="https://sgedye.github.io/selector" target="_blank" rel="noopener noreferrer">
+              <Button demo>DEMO</Button>
+            </a>
+            <a href="https://github.com/sgedye/selector" target="_blank" rel="noopener noreferrer">
+              <Button>CODE</Button>
+            </a>
+          </span>
+        </Description>
       </StyledDiv>
       <StyledDiv>
         <Image src={quotes} alt="Quote Machine" />
@@ -144,6 +158,21 @@ function Project() {
         </Description>
       </StyledDiv>
       <StyledDiv>
+        <Image src={slideshow} alt="Desktop Slideshow" />
+        <Description>
+          <Title>Desktop Slideshow</Title>
+          <Desc>JavaScript, HTML, CSS</Desc>
+          <span>
+            <a href="https://sgedye.github.io/slideshow" target="_blank" rel="noopener noreferrer">
+              <Button demo>DEMO</Button>
+            </a>
+            <a href="https://github.com/sgedye/slideshow" target="_blank" rel="noopener noreferrer">
+              <Button>CODE</Button>
+            </a>
+          </span>
+        </Description>
+      </StyledDiv>
+      <StyledDiv>
         <Image src={birds} alt="Birds" />
         <Description>
           <h3>SVG Animation</h3>
@@ -155,19 +184,15 @@ function Project() {
         </Description>
       </StyledDiv>
       <StyledDiv>
-        <Image src={birds} alt="birds" />
-        <Description>HOWDY</Description>
-      </StyledDiv>
-      <StyledDiv>
-        <Image src={counter} alt="React Counter" />
+        <Image src={svgWriting} alt="SVG Writing" />
         <Description>
-          <Title>React Counter</Title>
-          <Desc>ReactJS, HTML, CSS</Desc>
+          <Title>SVG Writing</Title>
+          <Desc>HTML, CSS</Desc>
           <span>
-            <a href="https://sgedye.github.io/counter" target="_blank" rel="noopener noreferrer">
+            <a href="https://sgedye.github.io/svg-writing" target="_blank" rel="noopener noreferrer">
               <Button demo>DEMO</Button>
             </a>
-            <a href="https://github.com/sgedye/counter" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/sgedye/svg-writing" target="_blank" rel="noopener noreferrer">
               <Button>CODE</Button>
             </a>
           </span>
@@ -185,15 +210,15 @@ function Project() {
         </Description>
       </StyledDiv>
       <StyledDiv>
-        <Image src={svgWriting} alt="SVG Writing" />
+        <Image src={counter} alt="React Counter" />
         <Description>
-          <Title>SVG Writing</Title>
-          <Desc>HTML, CSS</Desc>
+          <Title>React Counter</Title>
+          <Desc>ReactJS, HTML, CSS</Desc>
           <span>
-            <a href="https://sgedye.github.io/svg-writing" target="_blank" rel="noopener noreferrer">
+            <a href="https://sgedye.github.io/counter" target="_blank" rel="noopener noreferrer">
               <Button demo>DEMO</Button>
             </a>
-            <a href="https://github.com/sgedye/svg-writing" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/sgedye/counter" target="_blank" rel="noopener noreferrer">
               <Button>CODE</Button>
             </a>
           </span>
