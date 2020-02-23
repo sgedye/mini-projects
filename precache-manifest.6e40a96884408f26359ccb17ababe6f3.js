@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f4a95c0749b6ca48cf6b7146c09476c9",
+    "revision": "855a54b724406d7d1e85efd8da95e7bb",
     "url": "/mini-projects/index.html"
   },
   {
-    "revision": "21e7b0be79350f494828",
+    "revision": "97a182fd006fa61acc32",
     "url": "/mini-projects/static/css/main.fe871f53.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mini-projects/static/js/2.e83b79c8.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "21e7b0be79350f494828",
-    "url": "/mini-projects/static/js/main.6f50673f.chunk.js"
+    "revision": "97a182fd006fa61acc32",
+    "url": "/mini-projects/static/js/main.15e5e51c.chunk.js"
   },
   {
     "revision": "42ad75350cc7b6b3afdc",
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mini-projects/static/media/budget.2c7d0b8d.png"
   },
   {
-    "revision": "f92dc35ca2dd93bffccb0afdde1821d7",
-    "url": "/mini-projects/static/media/calculator.f92dc35c.png"
+    "revision": "f7a161f2b433aae095ee43d3643ac15b",
+    "url": "/mini-projects/static/media/calculator.f7a161f2.png"
   },
   {
-    "revision": "206be6cb1165398b2fa2b368fea71c5b",
-    "url": "/mini-projects/static/media/color.206be6cb.png"
+    "revision": "5e6c6fb531018ac831a7c3a87a86af8b",
+    "url": "/mini-projects/static/media/color.5e6c6fb5.png"
   },
   {
     "revision": "25a424be352227d652e65c828f5f9802",
