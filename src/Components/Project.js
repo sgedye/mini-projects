@@ -192,7 +192,12 @@ function Project() {
           <Hr />
           <Desc>ReactJS, HTML, Styled Components, SCSS, CSS</Desc>
           <span>
-            In progress
+            <a href="https://github.com/sgedye/calculator" target="_blank" rel="noopener noreferrer">
+              <Button>CODE</Button>
+            </a>
+            <a href="https://sgedye.github.io/calculator" target="_blank" rel="noopener noreferrer">
+              <Button demo>DEMO</Button>
+            </a>
           </span>
         </Description>
       </StyledDiv>
