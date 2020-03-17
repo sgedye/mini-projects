@@ -12,6 +12,7 @@ const StyledHeader = styled.header`
   font-size: calc(10px + 2vmin);
   color: white;
   h1 {
+    text-shadow: 4px 5px 2px #000000;
     -webkit-animation: heartBeat 1200ms 200ms;
     -moz-animation: heartBeat 1200ms 200ms;
     -MS-animation: heartBeat 1200ms 200ms;
