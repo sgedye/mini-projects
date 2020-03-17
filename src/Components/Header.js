@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import '../styles/animate.css'
 
 const StyledHeader = styled.header`
   background-color: #282c34;
@@ -10,6 +11,13 @@ const StyledHeader = styled.header`
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  h1 {
+    -webkit-animation: heartBeat 1200ms 200ms;
+    -moz-animation: heartBeat 1200ms 200ms;
+    -MS-animation: heartBeat 1200ms 200ms;
+    -o-animation: heartBeat 1200ms 200ms;
+    animation: heartBeat 1200ms 200ms;
+  }
 `
 
 function Header() {
