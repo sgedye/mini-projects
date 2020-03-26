@@ -1,38 +1,62 @@
 import React from 'react'
 import styled from 'styled-components'
-import '../styles/animate.css'
-import Description from '../Elements/Description'
-
-import budget from '../imgs/budget.png'
-import calculator from '../imgs/calculator.png'
-import color from '../imgs/color.png'
-import counter from '../imgs/counter.png'
-import quotes from '../imgs/quotes.png'
-import slideshow from '../imgs/slideshow.png'
-import selector from '../imgs/selector.png'
-import svgWriting from '../imgs/svg-writing.png'
-
-const StyledGrid = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  @media screen and (min-width: 500px) {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  @media screen and (min-width: 1024px) {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-`
 
 const StyledDiv = styled.div`
   position: relative;
 `
-
 const Image = styled.img`
   display: block;
   width: 100%;
   height: 100%;
 `
-
+const Description = styled.div`
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  z-index: 10;
+  text-align: center;
+  &:hover { 
+    opacity: 0.85;
+    background-color: lightblue;
+    -webkit-transition: background-color 700ms linear;
+    -moz-transition: background-color 700ms linear;
+    -ms-transition: background-color 700ms linear;
+    -o-transition: background-color 700ms linear;
+    transition: background-color 700ms linear;
+    h3 {
+      -webkit-animation: bounceInDown 0.8s;
+      -moz-animation: bounceInDown 0.8s;
+      -MS-animation: bounceInDown 0.8s;
+      -o-animation: bounceInDown 0.8s;
+      animation: bounceInDown 0.8s;
+    }
+    hr {
+      opacity: 0.75;
+      -webkit-animation: slideInLeft 1s;
+      -moz-animation: slideInLeft 1s;
+      -MS-animation: slideInLeft 1s;
+      -o-animation: slideInLeft 1s;
+      animation: slideInLeft 1s;
+    }
+    p {
+      -webkit-animation: slideInRight 1s;
+      -moz-animation: slideInRight 1s;
+      -MS-animation: slideInRight 1s;
+      -o-animation: slideInRight 1s;
+      animation: slideInRight 1s;
+    }
+    button {
+      -webkit-animation: zoomIn 1s;
+      -moz-animation: zoomIn 1s;
+      -MS-animation: zoomIn 1s;
+      -o-animation: zoomIn 1s;
+      animation: zoomIn 1s;  
+    }
+  }
+`
 const Title = styled.h3`
   text-shadow: 1px 1px 1px #fff;
   font-size: 1em;
@@ -54,7 +78,6 @@ const Title = styled.h3`
     margin: 60px 0 0 0;
   }
 `
-
 const Hr = styled.hr`
   border-width: 1px;
   border-color: black;
@@ -118,138 +141,27 @@ const Button = styled.button`
   }
 `
 
-function Project() {
+function Project(props) {  
+  const PROJECT_ID = `project-${props.id}`  
+  const CODE_ADDR = `https://github.com/sgedye/${props.address}`
+  const DEMO_ADDR = `https://sgedye.github.io/${props.address}`
   return (
-    <StyledGrid>
-      <StyledDiv>
-        <Image src={color} alt="Colour Picker" />
-        <Description>
-          <Title>Colour Picker</Title>
-          <Hr />
-          <Desc>JavaScript, HTML, SCSS</Desc>
-          <span>
-            <a href="https://github.com/sgedye/color-picker" target="_blank" rel="noopener noreferrer">
-              <Button>CODE</Button>
-            </a>
-            <a href="https://sgedye.github.io/color-picker" target="_blank" rel="noopener noreferrer">
-              <Button demo>DEMO</Button>
-            </a>
-          </span>
-        </Description>
-      </StyledDiv>
-      <StyledDiv>
-        <Image src={selector} alt="jQuery animal selector" />
-        <Description>
-          <Title>Animal Selector</Title>
-          <Hr />
-          <Desc>jQuery, HTML, Bootstrap, SCSS</Desc>
-          <span>
-            <a href="https://github.com/sgedye/selector" target="_blank" rel="noopener noreferrer">
-              <Button>CODE</Button>
-            </a>
-            <a href="https://sgedye.github.io/selector" target="_blank" rel="noopener noreferrer">
-              <Button demo>DEMO</Button>
-            </a>
-          </span>
-        </Description>
-      </StyledDiv>
-      <StyledDiv>
-        <Image src={quotes} alt="Quote Machine" />
-        <Description>
-          <Title>Quote Machine</Title>
-          <Hr />
-          <Desc>ReactJS, HTML, SCSS</Desc>
-          <span>
-            <a href="https://github.com/sgedye/quotes" target="_blank" rel="noopener noreferrer">
-              <Button>CODE</Button>
-            </a>
-            <a href="https://sgedye.github.io/quotes" target="_blank" rel="noopener noreferrer">
-              <Button demo>DEMO</Button>
-            </a>
-          </span>
-        </Description>
-      </StyledDiv>
-      <StyledDiv>
-        <Image src={slideshow} alt="Desktop Slideshow" />
-        <Description>
-          <Title>Desktop Slideshow</Title>
-          <Hr />
-          <Desc>JavaScript, HTML, CSS</Desc>
-          <span>
-            <a href="https://github.com/sgedye/slideshow" target="_blank" rel="noopener noreferrer">
-              <Button>CODE</Button>
-            </a>
-            <a href="https://sgedye.github.io/slideshow" target="_blank" rel="noopener noreferrer">
-              <Button demo>DEMO</Button>
-            </a>
-          </span>
-        </Description>
-      </StyledDiv>
-      <StyledDiv>
-        <Image src={calculator} alt="React Calculator" />
-        <Description>
-          <Title>React Calculator</Title>
-          <Hr />
-          <Desc>ReactJS, HTML, Styled Components, SCSS, CSS</Desc>
-          <span>
-            <a href="https://github.com/sgedye/calculator" target="_blank" rel="noopener noreferrer">
-              <Button>CODE</Button>
-            </a>
-            <a href="https://sgedye.github.io/calculator" target="_blank" rel="noopener noreferrer">
-              <Button demo>DEMO</Button>
-            </a>
-          </span>
-        </Description>
-      </StyledDiv>
-      <StyledDiv>
-        <Image src={svgWriting} alt="SVG Writing" />
-        <Description>
-          <Title>SVG Writing</Title>
-          <Hr />
-          <Desc>HTML, CSS</Desc>
-          <span>
-            <a href="https://github.com/sgedye/svg-writing" target="_blank" rel="noopener noreferrer">
-              <Button>CODE</Button>
-            </a>
-            <a href="https://sgedye.github.io/svg-writing" target="_blank" rel="noopener noreferrer">
-              <Button demo>DEMO</Button>
-            </a>
-          </span>
-        </Description>
-      </StyledDiv>
-      <StyledDiv>
-        <Image src={budget} alt="Budget Application" />
-        <Description>
-          <Title>Budget App</Title>
-          <Hr />
-          <Desc>JavaScript, HTML, Bootstrap, CSS</Desc>
-          <span>
-            <a href="https://github.com/sgedye/budget-app" target="_blank" rel="noopener noreferrer">
-              <Button>CODE</Button>
-            </a>
-            <a href="https://sgedye.github.io/budget-app" target="_blank" rel="noopener noreferrer">
-              <Button demo>DEMO</Button>
-            </a>
-          </span>
-        </Description>
-      </StyledDiv>
-      <StyledDiv>
-        <Image src={counter} alt="React Counter" />
-        <Description>
-          <Title>React Counter</Title>
-          <Hr />
-          <Desc>ReactJS, HTML, CSS</Desc>
-          <span>
-            <a href="https://github.com/sgedye/counter" target="_blank" rel="noopener noreferrer">
-              <Button>CODE</Button>
-            </a>
-            <a href="https://sgedye.github.io/counter" target="_blank" rel="noopener noreferrer">
-              <Button demo>DEMO</Button>
-            </a>
-          </span>
-        </Description>
-      </StyledDiv>
-    </StyledGrid>
+    <StyledDiv id={PROJECT_ID} >
+      <Image src={props.img} alt={props.alt} />
+      <Description>
+        <Title>{props.title}</Title>
+        <Hr />
+        <Desc>{props.desc}</Desc>
+        <span>
+          <a href={CODE_ADDR} target="_blank" rel="noopener noreferrer">
+            <Button>CODE</Button>
+          </a>
+          <a href={DEMO_ADDR} target="_blank" rel="noopener noreferrer">
+            <Button demo>DEMO</Button>
+          </a>
+        </span>
+      </Description>
+    </StyledDiv>
   )
 }
 

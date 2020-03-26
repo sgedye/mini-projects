@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Components/Header'
-import Project from './Components/Project'
+import Projects from './Components/Projects'
 import Footer from './Components/Footer'
 
 import { ThemeProvider} from 'styled-components'
@@ -17,7 +17,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <Header />
-      <Project />
+      <Projects />
       <Footer />
     </ThemeProvider>
   );
