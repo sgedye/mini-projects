@@ -36,7 +36,7 @@ function Projects() {
   ]
   const PROJECT_LIST = PROJECTS.map(project => {
     return (
-      < Project id={project.id} title={project.title} img={project.img} alt={project.alt} desc={project.desc} address={project.address} />
+      < Project key={project.id} title={project.title} img={project.img} alt={project.alt} desc={project.desc} address={project.address} />
     )
   })
   return (

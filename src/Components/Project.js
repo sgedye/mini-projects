@@ -61,13 +61,16 @@ const Title = styled.h3`
   text-shadow: 1px 1px 1px #fff;
   font-size: 1em;
   margin: 10px 0 0 0;
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 425px) {
+    font-size: 1.25em;
+    margin: 15px 0 0 0;
+  }
+  @media screen and (min-width: 768px) {
     font-size: 1.5em;
     margin: 20px 0 0 0;
   }
   @media screen and (min-width: 1024px) {
-    font-size: 1.8em;
-    margin: 30px 0 0 0;
+    font-size: 1.6em;
   }
   @media screen and (min-width: 1440px) {
     font-size: 2em;
@@ -86,17 +89,21 @@ const Hr = styled.hr`
 `
 const Desc = styled.p`
   text-shadow: 1px 1px 1px #fff;
-  font-size: 0.8em;
+  font-size: 0.7em;
   font-weight: 400;
-  margin: 10px 0;
-  @media screen and (min-width: 500px) {
+  margin: 8px 0;
+  @media screen and (min-width: 425px) {
+    font-size: 0.85em;
+    font-weight: 450;
+    margin: 10px 0;
+  }
+  @media screen and (min-width: 768px) {
     font-size: 1em;
     font-weight: 500;
     margin: 15px 0;
   }
   @media screen and (min-width: 1024px) {
     font-size: 1.1em;
-    margin: 18px 0;
   }
   @media screen and (min-width: 1440px) {
     font-size: 1.2em;
@@ -121,16 +128,17 @@ const Button = styled.button`
     transform: translate(1px, 1px);
     -webkit-transform: translate(1px, 1px);
   }
-  font-size: 0.8em;
+  font-size: 0.7em;
   padding: 3px 8px;
   margin: 0px 5px;
-  @media screen and (min-width: 500px) {
+  @media screen and (min-width: 768px) {
     font-size: 1em;
     padding: 5px 10px;
     margin: 10px;
   }
   @media screen and (min-width: 1024px) {
     font-size: 1.1em;
+    margin-top: 5px;
   }
   @media screen and (min-width: 1440px) {
     font-size: 1.3em;
