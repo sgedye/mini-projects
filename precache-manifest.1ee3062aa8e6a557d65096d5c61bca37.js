@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c46759c7142a4b3ffa0296c898d76720",
+    "revision": "06b2b91b53884152f0ffe6ee5a04ca88",
     "url": "/mini-projects/index.html"
   },
   {
-    "revision": "912969af8c91594d2784",
+    "revision": "8fca6bf5a5f991f21b86",
     "url": "/mini-projects/static/css/main.fe871f53.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mini-projects/static/js/2.8afe7333.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "912969af8c91594d2784",
-    "url": "/mini-projects/static/js/main.a931879a.chunk.js"
+    "revision": "8fca6bf5a5f991f21b86",
+    "url": "/mini-projects/static/js/main.82cd6905.chunk.js"
   },
   {
     "revision": "42ad75350cc7b6b3afdc",
@@ -40,6 +40,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mini-projects/static/media/counter.25a424be.png"
   },
   {
+    "revision": "6a2cc34942d31e9531cb819af352a1cf",
+    "url": "/mini-projects/static/media/drum-kit.6a2cc349.png"
+  },
+  {
     "revision": "60454a84d3b59c293d2968f5fe1532a5",
     "url": "/mini-projects/static/media/quotes.60454a84.png"
   },
@@ -48,8 +52,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mini-projects/static/media/selector.60f2290e.png"
   },
   {
-    "revision": "42d568aa7f4bf7fdf9aa62281accb8d8",
-    "url": "/mini-projects/static/media/slideshow.42d568aa.png"
+    "revision": "4fe3328a63c30a528cfcd9824e22552f",
+    "url": "/mini-projects/static/media/slideshow.4fe3328a.png"
   },
   {
     "revision": "4e01398c78a0fd49e21bd3f23c317519",

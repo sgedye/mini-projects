@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/mini-projects/static/css/main.fe871f53.chunk.css",
-    "main.js": "/mini-projects/static/js/main.a931879a.chunk.js",
-    "main.js.map": "/mini-projects/static/js/main.a931879a.chunk.js.map",
+    "main.js": "/mini-projects/static/js/main.82cd6905.chunk.js",
+    "main.js.map": "/mini-projects/static/js/main.82cd6905.chunk.js.map",
     "runtime-main.js": "/mini-projects/static/js/runtime-main.036eb54d.js",
     "runtime-main.js.map": "/mini-projects/static/js/runtime-main.036eb54d.js.map",
     "static/js/2.8afe7333.chunk.js": "/mini-projects/static/js/2.8afe7333.chunk.js",
     "static/js/2.8afe7333.chunk.js.map": "/mini-projects/static/js/2.8afe7333.chunk.js.map",
     "index.html": "/mini-projects/index.html",
-    "precache-manifest.27f5a2bb7f0abf4b90c67852ed8c8ef6.js": "/mini-projects/precache-manifest.27f5a2bb7f0abf4b90c67852ed8c8ef6.js",
+    "precache-manifest.1ee3062aa8e6a557d65096d5c61bca37.js": "/mini-projects/precache-manifest.1ee3062aa8e6a557d65096d5c61bca37.js",
     "service-worker.js": "/mini-projects/service-worker.js",
     "static/css/main.fe871f53.chunk.css.map": "/mini-projects/static/css/main.fe871f53.chunk.css.map",
     "static/js/2.8afe7333.chunk.js.LICENSE.txt": "/mini-projects/static/js/2.8afe7333.chunk.js.LICENSE.txt",
@@ -16,15 +16,16 @@
     "static/media/calculator.png": "/mini-projects/static/media/calculator.f7a161f2.png",
     "static/media/color.png": "/mini-projects/static/media/color.5e6c6fb5.png",
     "static/media/counter.png": "/mini-projects/static/media/counter.25a424be.png",
+    "static/media/drum-kit.png": "/mini-projects/static/media/drum-kit.6a2cc349.png",
     "static/media/quotes.png": "/mini-projects/static/media/quotes.60454a84.png",
     "static/media/selector.png": "/mini-projects/static/media/selector.60f2290e.png",
-    "static/media/slideshow.png": "/mini-projects/static/media/slideshow.42d568aa.png",
+    "static/media/slideshow.png": "/mini-projects/static/media/slideshow.4fe3328a.png",
     "static/media/svg-writing.png": "/mini-projects/static/media/svg-writing.4e01398c.png"
   },
   "entrypoints": [
     "static/js/runtime-main.036eb54d.js",
     "static/js/2.8afe7333.chunk.js",
     "static/css/main.fe871f53.chunk.css",
-    "static/js/main.a931879a.chunk.js"
+    "static/js/main.82cd6905.chunk.js"
   ]
 }
