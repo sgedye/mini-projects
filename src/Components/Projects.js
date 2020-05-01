@@ -32,7 +32,7 @@ function Projects() {
     { id: 3, title: "Quote Machine", img: `${quotes}`, alt: "Quote Machine", desc: "ReactJS, HTML, SCSS", address: "quotes" },
     { id: 4, title: "Desktop Slideshow", img: `${slideshow}`, alt: "Desktop Slideshow", desc: "JavaScript, HTML, CSS", address: "slideshow" },
     { id: 5, title: "React Calculator", img: `${calculator}`, alt: "React Calculator", desc: "ReactJS, Styled Components, HTML, SCSS, CSS, MouseTrap", address: "calculator" },
-    { id: 6, title: "Weather App", img: `${weather}`, alt: "Weather App", desc: "APIs, JavaScript, HTML, CSS, Skycons", address: "weather" },
+    { id: 6, title: "Weather App", img: `${weather}`, alt: "Weather App", desc: "APIs, JSON, JavaScript, HTML, CSS, Skycons", address: "weather" },
     { id: 7, title: "Budget App", img: `${budget}`, alt: "Budget Application", desc: "JavaScript, HTML, Bootstrap, CSS", address: "budget-app" },
     { id: 8, title: "Drum Machine", img: `${drumKit}`, alt: "Drum Machine", desc: "ReactJS, Styled Components, Hooks, HTML, CSS, MouseTrap", address: "drum-machine" },
     { id: 9, title: "React Counter", img: `${counter}`, alt: "React Counter", desc: "ReactJS, HTML, CSS", address: "counter" },
