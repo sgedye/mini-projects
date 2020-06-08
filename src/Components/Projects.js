@@ -36,7 +36,7 @@ function Projects() {
     { id: 6, title: "Weather App", img: `${weather}`, alt: "Weather App", desc: "APIs, JSON, JavaScript, HTML, CSS, Skycons", address: "weather" },
     { id: 7, title: "Budget App", img: `${budget}`, alt: "Budget Application", desc: "JavaScript, HTML, Bootstrap, CSS", address: "budget-app" },
     { id: 8, title: "Clock", img: `${clock}`, alt: "CSS & JS Clock", desc: "JavaScript, HTML, CSS", address: "clock" },
-    { id: 9, title: "Desktop Slideshow", img: `${slideshow}`, alt: "Desktop Slideshow", desc: "JavaScript, HTML, CSS", address: "slideshow" },
+    { id: 9, title: "Slideshow", img: `${slideshow}`, alt: "Slideshow with Autoplay", desc: "JavaScript, HTML, CSS", address: "slideshow" },
     { id: 10, title: "React Counter", img: `${counter}`, alt: "React Counter", desc: "ReactJS, HTML, CSS", address: "counter" },
     { id: 11, title: "SVG Writing", img: `${svgWriting}`, alt: "SVG Writing", desc: "HTML, CSS", address: "svg-writing" },
   ]
