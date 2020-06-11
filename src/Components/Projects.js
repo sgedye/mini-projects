@@ -8,6 +8,7 @@ import calculator from '../imgs/calculator.png'
 import clock from '../imgs/clock.png'
 import color from '../imgs/color.png'
 import counter from '../imgs/counter.png'
+import dragDrop from '../imgs/drag-n-drop.png'
 import drumKit from '../imgs/drum-kit.png'
 import quotes from '../imgs/quotes.png'
 import selector from '../imgs/selector.png'
@@ -38,7 +39,8 @@ function Projects() {
     { id: 8, title: "Clock", img: `${clock}`, alt: "CSS & JS Clock", desc: "JavaScript, HTML, CSS", address: "clock" },
     { id: 9, title: "Slideshow", img: `${slideshow}`, alt: "Slideshow with Autoplay", desc: "JavaScript, HTML, CSS", address: "slideshow" },
     { id: 10, title: "React Counter", img: `${counter}`, alt: "React Counter", desc: "ReactJS, HTML, CSS", address: "counter" },
-    { id: 11, title: "SVG Writing", img: `${svgWriting}`, alt: "SVG Writing", desc: "HTML, CSS", address: "svg-writing" },
+    { id: 11, title: "Drag 'n' Drop", img: `${dragDrop}`, alt: "Drag 'n' Drop", desc: "ReactJS, HTML, CSS", address: "drag-n-drop" },
+    { id: 12, title: "SVG Writing", img: `${svgWriting}`, alt: "SVG Writing", desc: "HTML, CSS", address: "svg-writing" },
   ]
   const PROJECT_LIST = PROJECTS.map(project => {
     return (
