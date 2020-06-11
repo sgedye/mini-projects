@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/mini-projects/static/css/main.0e350c12.chunk.css",
-    "main.js": "/mini-projects/static/js/main.2d4f47d6.chunk.js",
-    "main.js.map": "/mini-projects/static/js/main.2d4f47d6.chunk.js.map",
+    "main.js": "/mini-projects/static/js/main.e886673b.chunk.js",
+    "main.js.map": "/mini-projects/static/js/main.e886673b.chunk.js.map",
     "runtime-main.js": "/mini-projects/static/js/runtime-main.10df1349.js",
     "runtime-main.js.map": "/mini-projects/static/js/runtime-main.10df1349.js.map",
-    "static/js/2.db3de062.chunk.js": "/mini-projects/static/js/2.db3de062.chunk.js",
-    "static/js/2.db3de062.chunk.js.map": "/mini-projects/static/js/2.db3de062.chunk.js.map",
+    "static/js/2.036a0fb9.chunk.js": "/mini-projects/static/js/2.036a0fb9.chunk.js",
+    "static/js/2.036a0fb9.chunk.js.map": "/mini-projects/static/js/2.036a0fb9.chunk.js.map",
     "index.html": "/mini-projects/index.html",
-    "precache-manifest.7ec4d6aebcb76ab22d25cb7632dae841.js": "/mini-projects/precache-manifest.7ec4d6aebcb76ab22d25cb7632dae841.js",
+    "precache-manifest.55fcaa020f785c9fb4a65b631343723c.js": "/mini-projects/precache-manifest.55fcaa020f785c9fb4a65b631343723c.js",
     "service-worker.js": "/mini-projects/service-worker.js",
     "static/css/main.0e350c12.chunk.css.map": "/mini-projects/static/css/main.0e350c12.chunk.css.map",
-    "static/js/2.db3de062.chunk.js.LICENSE.txt": "/mini-projects/static/js/2.db3de062.chunk.js.LICENSE.txt",
+    "static/js/2.036a0fb9.chunk.js.LICENSE.txt": "/mini-projects/static/js/2.036a0fb9.chunk.js.LICENSE.txt",
     "static/media/budget.png": "/mini-projects/static/media/budget.2c7d0b8d.png",
     "static/media/calculator.png": "/mini-projects/static/media/calculator.f7a161f2.png",
     "static/media/clock.png": "/mini-projects/static/media/clock.444edbb7.png",
     "static/media/color.png": "/mini-projects/static/media/color.5e6c6fb5.png",
     "static/media/counter.png": "/mini-projects/static/media/counter.25a424be.png",
+    "static/media/drag-n-drop.png": "/mini-projects/static/media/drag-n-drop.9b4b276e.png",
     "static/media/drum-kit.png": "/mini-projects/static/media/drum-kit.6a2cc349.png",
     "static/media/quotes.png": "/mini-projects/static/media/quotes.60454a84.png",
     "static/media/selector.png": "/mini-projects/static/media/selector.60f2290e.png",
@@ -26,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.10df1349.js",
-    "static/js/2.db3de062.chunk.js",
+    "static/js/2.036a0fb9.chunk.js",
     "static/css/main.0e350c12.chunk.css",
-    "static/js/main.2d4f47d6.chunk.js"
+    "static/js/main.e886673b.chunk.js"
   ]
 }
