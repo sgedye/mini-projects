@@ -4,7 +4,7 @@ import '../styles/animate.css'
 
 const StyledHeader = styled.header`
   background-color: #282c34;
-  min-height: 30vh;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
