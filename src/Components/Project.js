@@ -153,8 +153,9 @@ function Project(props) {
   const PROJECT_ID = `project-${props.id}`  
   const CODE_ADDR = `https://github.com/sgedye/${props.address}`
   const DEMO_ADDR = `https://sgedye.github.io/${props.address}`
+  const data = props.desc.replace(',', '').toLowerCase()
   return (
-    <StyledDiv id={PROJECT_ID} >
+    <StyledDiv id={PROJECT_ID} data-item={data} >
       <Image src={props.img} alt={props.alt} />
       <Description>
         <Title>{props.title}</Title>
