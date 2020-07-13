@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import Header from './Components/Header'
+// import FilterButtons from './Components/FilterButtons'
 import Projects from './Components/Projects'
 import Footer from './Components/Footer'
 
@@ -14,13 +15,31 @@ const theme = {
 }
 
 function App() {
+  // const [selector, setSelector] = useState("all")
+  
+  // console.log(selector)
+  // useEffect(() => {
+  //   // effect
+  //   console.log(selector)
+  //   return () => {
+  //     // cleanup
+  //   }
+  // }, [selector])
+
+  // const handleSelector = e => {
+  //   e.preventDefault()
+  //   console.log(e.target, e.target.value)
+  //   setSelector('hi')
+  // }
+
   return (
     <ThemeProvider theme={theme}>
       <Header />
+      {/* <FilterButtons setSelector={setSelector} /> */}
       <Projects />
       <Footer />
     </ThemeProvider>
-  );
+  )
 }
 
 export default App;

@@ -151,11 +151,11 @@ const Button = styled.button`
 
 function Project(props) {  
   const PROJECT_ID = `project-${props.id}`  
-  const CODE_ADDR = `https://github.com/sgedye/${props.address}`
-  const DEMO_ADDR = `https://sgedye.github.io/${props.address}`
-  const data = props.desc.replace(',', '').toLowerCase()
+  const CODE_ADDR = props.onGitHub ? `https://github.com/sgedye/${props.address}` : `https://github.com/sgedye/${props.address[0]}`;
+  const DEMO_ADDR = props.onGitHub ? `https://sgedye.github.io/${props.address}` : props.address[1];
+
   return (
-    <StyledDiv id={PROJECT_ID} data-item={data} >
+    <StyledDiv id={PROJECT_ID}>
       <Image src={props.img} alt={props.alt} />
       <Description>
         <Title>{props.title}</Title>
