@@ -10,6 +10,8 @@
 
 # production
 /build
+/imgs/old/fake-google/*
+/imgs/old/*
 
 # misc
 .DS_Store
