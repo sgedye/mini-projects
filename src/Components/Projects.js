@@ -32,7 +32,9 @@ function Projects() {
         {
           ProjectData
             // .filter(project => project.desc.toLowerCase().split(', ').includes(selection) || selection === 'all')
-            .map(project => <Project key={project.id} title={project.title} img={project.img} alt={project.alt} desc={project.desc} onGitHub={project.onGitHub} address={project.address} />)
+            .map(({id, title, img, alt, desc, onGitHub, address}) => (
+              <Project key={id} title={title} img={img} alt={alt} desc={desc} onGitHub={onGitHub} address={address} />
+            ))
         }
       </StyledGrid>
     </>
