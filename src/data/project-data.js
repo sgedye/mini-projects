@@ -1,3 +1,4 @@
+import animatedSvg from '../imgs/animated-svg.png'
 import budget from '../imgs/budget.png'
 import calculator from '../imgs/calculator.png'
 import clock from '../imgs/clock.png'
@@ -33,5 +34,6 @@ export default [
   { id: 13, title: "Drag 'n' Drop",   img: dragDrop,  alt: "Drag 'n' Drop",     desc: "React, HTML, CSS", onGitHub: true, address: "drag-n-drop" },
   { id: 14, title: "SVG Writing",     img: svgWriting, alt: "SVG Writing",      desc: "HTML, CSS", onGitHub: true, address: "svg-writing" },
   { id: 15, title: "Quote Machine",   img: quotes,    alt: "Quote Machine",     desc: "React, HTML, SCSS", onGitHub: true, address: "quotes" },
-  // { id: 16, title: "React Counter",   img: counter,   alt: "React Counter",     desc: "React, HTML, CSS", onGitHub: true, address: "counter" },
+  { id: 16, title: "Animated SVG",    img: animatedSvg, alt: "Animated SVG",    desc: "HTML, CSS", onGitHub: true, address: "animated-svg" },
+  // { id: 17, title: "React Counter",   img: counter,   alt: "React Counter",     desc: "React, HTML, CSS", onGitHub: true, address: "counter" },
 ];
