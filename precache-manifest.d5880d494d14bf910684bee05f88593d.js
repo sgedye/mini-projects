@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "00ce3df21285bb4260b343a248ac8483",
+    "revision": "9601c3bdf627acbfcf6b9991241efb9c",
     "url": "/mini-projects/index.html"
   },
   {
-    "revision": "1bca96214eb57b310f25",
+    "revision": "8c55c47a3123e01efced",
     "url": "/mini-projects/static/css/main.b0d3e05c.chunk.css"
   },
   {
-    "revision": "c392c8231a32027e7374",
-    "url": "/mini-projects/static/js/2.f64ad05d.chunk.js"
+    "revision": "2112689b8f29b91dbd77",
+    "url": "/mini-projects/static/js/2.7186f9da.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/mini-projects/static/js/2.f64ad05d.chunk.js.LICENSE.txt"
+    "url": "/mini-projects/static/js/2.7186f9da.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1bca96214eb57b310f25",
-    "url": "/mini-projects/static/js/main.e17408dc.chunk.js"
+    "revision": "8c55c47a3123e01efced",
+    "url": "/mini-projects/static/js/main.a75fa760.chunk.js"
   },
   {
     "revision": "6bcd9d43e11248fe314c",
     "url": "/mini-projects/static/js/runtime-main.bfff0fa1.js"
+  },
+  {
+    "revision": "222a01f894273c01fdf8d00d5fa40caf",
+    "url": "/mini-projects/static/media/animated-svg.222a01f8.png"
   },
   {
     "revision": "2c7d0b8d3cf3ac2a06ebd050de9e9181",
