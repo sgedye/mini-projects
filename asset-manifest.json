@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/mini-projects/static/css/main.b0d3e05c.chunk.css",
-    "main.js": "/mini-projects/static/js/main.a75fa760.chunk.js",
-    "main.js.map": "/mini-projects/static/js/main.a75fa760.chunk.js.map",
+    "main.js": "/mini-projects/static/js/main.48e5f003.chunk.js",
+    "main.js.map": "/mini-projects/static/js/main.48e5f003.chunk.js.map",
     "runtime-main.js": "/mini-projects/static/js/runtime-main.bfff0fa1.js",
     "runtime-main.js.map": "/mini-projects/static/js/runtime-main.bfff0fa1.js.map",
-    "static/js/2.7186f9da.chunk.js": "/mini-projects/static/js/2.7186f9da.chunk.js",
-    "static/js/2.7186f9da.chunk.js.map": "/mini-projects/static/js/2.7186f9da.chunk.js.map",
+    "static/js/2.5087fb05.chunk.js": "/mini-projects/static/js/2.5087fb05.chunk.js",
+    "static/js/2.5087fb05.chunk.js.map": "/mini-projects/static/js/2.5087fb05.chunk.js.map",
     "index.html": "/mini-projects/index.html",
-    "precache-manifest.d5880d494d14bf910684bee05f88593d.js": "/mini-projects/precache-manifest.d5880d494d14bf910684bee05f88593d.js",
+    "precache-manifest.c9648980f374278aea49b7c36067994b.js": "/mini-projects/precache-manifest.c9648980f374278aea49b7c36067994b.js",
     "service-worker.js": "/mini-projects/service-worker.js",
     "static/css/main.b0d3e05c.chunk.css.map": "/mini-projects/static/css/main.b0d3e05c.chunk.css.map",
-    "static/js/2.7186f9da.chunk.js.LICENSE.txt": "/mini-projects/static/js/2.7186f9da.chunk.js.LICENSE.txt",
+    "static/js/2.5087fb05.chunk.js.LICENSE.txt": "/mini-projects/static/js/2.5087fb05.chunk.js.LICENSE.txt",
     "static/media/animated-svg.png": "/mini-projects/static/media/animated-svg.222a01f8.png",
     "static/media/budget.png": "/mini-projects/static/media/budget.2c7d0b8d.png",
     "static/media/calculator.png": "/mini-projects/static/media/calculator.f7a161f2.png",
@@ -28,12 +28,13 @@
     "static/media/selector.png": "/mini-projects/static/media/selector.60f2290e.png",
     "static/media/slideshow.png": "/mini-projects/static/media/slideshow.4fe3328a.png",
     "static/media/svg-writing.png": "/mini-projects/static/media/svg-writing.4e01398c.png",
+    "static/media/testimonialSlider.png": "/mini-projects/static/media/testimonialSlider.8628c130.png",
     "static/media/weather.png": "/mini-projects/static/media/weather.5b5f1af1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bfff0fa1.js",
-    "static/js/2.7186f9da.chunk.js",
+    "static/js/2.5087fb05.chunk.js",
     "static/css/main.b0d3e05c.chunk.css",
-    "static/js/main.a75fa760.chunk.js"
+    "static/js/main.48e5f003.chunk.js"
   ]
 }
