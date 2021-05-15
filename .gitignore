@@ -12,6 +12,7 @@
 /build
 /imgs/old/fake-google/*
 /imgs/old/*
+/old
 
 # misc
 .DS_Store

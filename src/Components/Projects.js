@@ -1,18 +1,16 @@
-import React from 'react';
+import React from "react";
 // import { useState, useEffect } from 'react';
-import styled from 'styled-components';
-import '../styles/animate.css';
-import Project from './Project';
-import ProjectData from '../data/project-data';
+import styled from "styled-components";
+import "../styles/animate.css";
+import Project from "./Project";
+import ProjectData from "../data/project-data";
 
 // import FilterButtons from './FilterButtons';
 
-
 function Projects() {
-
   // let [selection, setSelection] = useState("all")
   // const [refresh, setRefresh] = useState(false)
-  
+
   // useEffect(() => {
   //   setSelection("react")
   // }, [selection])
@@ -29,17 +27,23 @@ function Projects() {
       {/* <button onClick={(e) => changeSelection(e)}>hi</button>
       <FilterButtons /> */}
       <StyledGrid>
-        {
-          ProjectData
-            // .filter(project => project.desc.toLowerCase().split(', ').includes(selection) || selection === 'all')
-            .map(({id, title, img, alt, desc, onGitHub, address}) => (
-              <Project key={id} title={title} img={img} alt={alt} desc={desc} onGitHub={onGitHub} address={address} />
-            ))
-        }
+        {ProjectData
+          // .filter(project => project.desc.toLowerCase().split(', ').includes(selection) || selection === 'all')
+          .map(({ title, img, alt, desc, onGitHub, address }, idx) => (
+            <Project
+              key={idx}
+              title={title}
+              img={img}
+              alt={alt}
+              desc={desc}
+              onGitHub={onGitHub}
+              address={address}
+            />
+          ))}
       </StyledGrid>
     </>
   );
-};
+}
 
 const StyledGrid = styled.div`
   display: grid;
