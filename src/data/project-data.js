@@ -9,6 +9,7 @@ import dragDrop from '../imgs/drag-n-drop.png'
 import drumKit from '../imgs/drum-kit.png'
 import fakeGoogle from '../imgs/fake-google.png'
 import grandmas from '../imgs/grandmas.png'
+import loading from '../imgs/loading-animation.png'
 import meme from '../imgs/meme-builder.png'
 import pomodoro from '../imgs/pomodoro.png'
 import quotes from '../imgs/quotes.png'
@@ -29,13 +30,14 @@ export default [
   { id: 7, title: "Contact Form",     img: contactForm, alt: "Contact Form",    desc: "React, SCSS Modules, Regex, Hooks, HTML, CSS", onGitHub: false, address: ["contact-form", "https://contact-component.netlify.app/"] },
   { id: 8, title: "Fake Google",      img: fakeGoogle, alt: "Fake Google",      desc: "React, SCSS, Netlify, SVG, Sprites, HTML", onGitHub: false, address: ["fake-google", "https://fake-google.netlify.app/"] },
   { id: 9, title: "Grandmas Sweets", img: grandmas,  alt: "Grandmas Sweets",   desc: "HTML, CSS, JavaScript", onGitHub: true, address: "grandmas-sweets" },
-  { id: 10, title: "Testimonials",    img: testimonials, alt: "Testimonials Slider", desc: "JavaScript, HTML, CSS", onGitHub: true, address: "testimonials-slider" },
-  { id: 11, title: "Budget App",       img: budget,    alt: "Budget Application", desc: "JavaScript, HTML, Bootstrap, CSS", onGitHub: true, address: "budget-app" },
-  { id: 12, title: "Clock",            img: clock,     alt: "CSS & JS Clock",    desc: "JavaScript, HTML, CSS", onGitHub: true, address: "clock" },
-  { id: 13, title: "Slideshow",       img: slideshow, alt: "Slideshow with Autoplay", desc: "JavaScript, HTML, CSS", onGitHub: true, address: "slideshow" },
-  { id: 14, title: "Drag 'n' Drop",   img: dragDrop,  alt: "Drag 'n' Drop",     desc: "React, HTML, CSS", onGitHub: true, address: "drag-n-drop" },
-  { id: 15, title: "SVG Writing",     img: svgWriting, alt: "SVG Writing",      desc: "HTML, CSS", onGitHub: true, address: "svg-writing" },
-  { id: 16, title: "Animated SVG",    img: animatedSvg, alt: "Animated SVG",    desc: "HTML, CSS", onGitHub: true, address: "animated-svg" },
-  { id: 17, title: "Quote Machine",   img: quotes,    alt: "Quote Machine",     desc: "React, HTML, SCSS", onGitHub: true, address: "quotes" },
+  { id: 10, title: "Loading Animation", img: loading, alt: "Loading Animation", desc: "React, Axios, Styled Components", onGitHub: false, address: ["loading-skeleton", "https://loading-skeleton.netlify.app/"] },
+  { id: 11, title: "Testimonials",    img: testimonials, alt: "Testimonials Slider", desc: "JavaScript, HTML, CSS", onGitHub: true, address: "testimonials-slider" },
+  { id: 12, title: "Budget App",       img: budget,    alt: "Budget Application", desc: "JavaScript, HTML, Bootstrap, CSS", onGitHub: true, address: "budget-app" },
+  { id: 13, title: "Clock",            img: clock,     alt: "CSS & JS Clock",    desc: "JavaScript, HTML, CSS", onGitHub: true, address: "clock" },
+  { id: 14, title: "Slideshow",       img: slideshow, alt: "Slideshow with Autoplay", desc: "JavaScript, HTML, CSS", onGitHub: true, address: "slideshow" },
+  { id: 15, title: "Drag 'n' Drop",   img: dragDrop,  alt: "Drag 'n' Drop",     desc: "React, HTML, CSS", onGitHub: true, address: "drag-n-drop" },
+  { id: 16, title: "SVG Writing",     img: svgWriting, alt: "SVG Writing",      desc: "HTML, CSS", onGitHub: true, address: "svg-writing" },
+  { id: 17, title: "Animated SVG",    img: animatedSvg, alt: "Animated SVG",    desc: "HTML, CSS", onGitHub: true, address: "animated-svg" },
+  { id: 18, title: "Quote Machine",   img: quotes,    alt: "Quote Machine",     desc: "React, HTML, SCSS", onGitHub: true, address: "quotes" },
   // { id: 19, title: "React Counter",   img: counter,   alt: "React Counter",     desc: "React, HTML, CSS", onGitHub: true, address: "counter" },
 ];
