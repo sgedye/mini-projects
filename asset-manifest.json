@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/mini-projects/static/css/main.f993a6e6.chunk.css",
-    "main.js": "/mini-projects/static/js/main.2de89230.chunk.js",
-    "main.js.map": "/mini-projects/static/js/main.2de89230.chunk.js.map",
+    "main.js": "/mini-projects/static/js/main.e26f8f9b.chunk.js",
+    "main.js.map": "/mini-projects/static/js/main.e26f8f9b.chunk.js.map",
     "runtime-main.js": "/mini-projects/static/js/runtime-main.39bdf379.js",
     "runtime-main.js.map": "/mini-projects/static/js/runtime-main.39bdf379.js.map",
-    "static/js/2.053ca98a.chunk.js": "/mini-projects/static/js/2.053ca98a.chunk.js",
-    "static/js/2.053ca98a.chunk.js.map": "/mini-projects/static/js/2.053ca98a.chunk.js.map",
+    "static/js/2.813d5cd2.chunk.js": "/mini-projects/static/js/2.813d5cd2.chunk.js",
+    "static/js/2.813d5cd2.chunk.js.map": "/mini-projects/static/js/2.813d5cd2.chunk.js.map",
     "index.html": "/mini-projects/index.html",
-    "precache-manifest.d3fea988b381c094a5eb701f8025c01e.js": "/mini-projects/precache-manifest.d3fea988b381c094a5eb701f8025c01e.js",
+    "precache-manifest.a690fdc40936953c91f31dcd3d215d60.js": "/mini-projects/precache-manifest.a690fdc40936953c91f31dcd3d215d60.js",
     "service-worker.js": "/mini-projects/service-worker.js",
     "static/css/main.f993a6e6.chunk.css.map": "/mini-projects/static/css/main.f993a6e6.chunk.css.map",
-    "static/js/2.053ca98a.chunk.js.LICENSE.txt": "/mini-projects/static/js/2.053ca98a.chunk.js.LICENSE.txt",
+    "static/js/2.813d5cd2.chunk.js.LICENSE.txt": "/mini-projects/static/js/2.813d5cd2.chunk.js.LICENSE.txt",
     "static/media/animated-svg.png": "/mini-projects/static/media/animated-svg.222a01f8.png",
     "static/media/budget.png": "/mini-projects/static/media/budget.2c7d0b8d.png",
     "static/media/calculator.png": "/mini-projects/static/media/calculator.f7a161f2.png",
@@ -30,12 +30,13 @@
     "static/media/slideshow.png": "/mini-projects/static/media/slideshow.4fe3328a.png",
     "static/media/svg-writing.png": "/mini-projects/static/media/svg-writing.4e01398c.png",
     "static/media/testimonialSlider.png": "/mini-projects/static/media/testimonialSlider.8628c130.png",
+    "static/media/tetris.png": "/mini-projects/static/media/tetris.c4f6fbb0.png",
     "static/media/weather.png": "/mini-projects/static/media/weather.5b5f1af1.png"
   },
   "entrypoints": [
     "static/js/runtime-main.39bdf379.js",
-    "static/js/2.053ca98a.chunk.js",
+    "static/js/2.813d5cd2.chunk.js",
     "static/css/main.f993a6e6.chunk.css",
-    "static/js/main.2de89230.chunk.js"
+    "static/js/main.e26f8f9b.chunk.js"
   ]
 }
