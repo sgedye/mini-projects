@@ -1,13 +1,12 @@
-import React from "react";
 // import { useState, useEffect } from 'react';
 import styled from "styled-components";
 import "../styles/animate.css";
-import Project from "./Project";
+import { Project } from ".";
 import ProjectData from "../data/project-data";
 
 // import FilterButtons from './FilterButtons';
 
-function Projects() {
+export const Projects = () => {
   // let [selection, setSelection] = useState("all")
   // const [refresh, setRefresh] = useState(false)
 
@@ -32,6 +31,7 @@ function Projects() {
           .map(({ title, img, alt, desc, onGitHub, address }, idx) => (
             <Project
               key={idx}
+              id={idx}
               title={title}
               img={img}
               alt={alt}
@@ -43,7 +43,7 @@ function Projects() {
       </StyledGrid>
     </>
   );
-}
+};
 
 const StyledGrid = styled.div`
   display: grid;
@@ -55,5 +55,3 @@ const StyledGrid = styled.div`
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 `;
-
-export default Projects;

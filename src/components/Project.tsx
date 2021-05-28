@@ -1,14 +1,62 @@
-import React from 'react'
-import styled from 'styled-components'
+import styled from "styled-components";
+
+interface ProjectProps {
+  id: number;
+  address: string | string[];
+  onGitHub: boolean;
+  img: string;
+  title: string;
+  alt: string;
+  desc: string;
+}
+
+export const Project: React.FC<ProjectProps> = ({
+  id,
+  address,
+  alt,
+  desc,
+  img,
+  onGitHub,
+  title,
+}) => {
+  const PROJECT_ID = `project-${id}`;
+  const CODE_ADDR = onGitHub
+    ? `https://github.com/sgedye/${address}`
+    : `https://github.com/sgedye/${address[0]}`;
+  const DEMO_ADDR = onGitHub
+    ? `https://sgedye.github.io/${address}`
+    : address[1];
+
+  return (
+    <StyledDiv id={PROJECT_ID}>
+      <Image src={img} alt={alt} />
+      <Description>
+        <Title>{title}</Title>
+        <Hr />
+        <Desc>{desc}</Desc>
+        <span>
+          <a href={CODE_ADDR} target="_blank" rel="noopener noreferrer">
+            <Button isDemo={false}>CODE</Button>
+          </a>
+          <a href={DEMO_ADDR} target="_blank" rel="noopener noreferrer">
+            <Button isDemo={true}>DEMO</Button>
+          </a>
+        </span>
+      </Description>
+    </StyledDiv>
+  );
+};
 
 const StyledDiv = styled.div`
   position: relative;
-`
+`;
+
 const Image = styled.img`
   display: block;
   width: 100%;
   height: 100%;
-`
+`;
+
 const Description = styled.div`
   position: absolute;
   top: 0;
@@ -18,7 +66,7 @@ const Description = styled.div`
   opacity: 0;
   z-index: 10;
   text-align: center;
-  &:hover { 
+  &:hover {
     opacity: 0.85;
     background-color: lightblue;
     -webkit-transition: background-color 700ms linear;
@@ -29,7 +77,7 @@ const Description = styled.div`
     h3 {
       -webkit-animation: bounceInDown 0.8s;
       -moz-animation: bounceInDown 0.8s;
-      -MS-animation: bounceInDown 0.8s;
+      -ms-animation: bounceInDown 0.8s;
       -o-animation: bounceInDown 0.8s;
       animation: bounceInDown 0.8s;
     }
@@ -37,26 +85,27 @@ const Description = styled.div`
       opacity: 0.75;
       -webkit-animation: slideInLeft 1s;
       -moz-animation: slideInLeft 1s;
-      -MS-animation: slideInLeft 1s;
+      -ms-animation: slideInLeft 1s;
       -o-animation: slideInLeft 1s;
       animation: slideInLeft 1s;
     }
     p {
       -webkit-animation: slideInRight 1s;
       -moz-animation: slideInRight 1s;
-      -MS-animation: slideInRight 1s;
+      -ms-animation: slideInRight 1s;
       -o-animation: slideInRight 1s;
       animation: slideInRight 1s;
     }
     button {
       -webkit-animation: zoomIn 1s;
       -moz-animation: zoomIn 1s;
-      -MS-animation: zoomIn 1s;
+      -ms-animation: zoomIn 1s;
       -o-animation: zoomIn 1s;
-      animation: zoomIn 1s;  
+      animation: zoomIn 1s;
     }
   }
-`
+`;
+
 const Title = styled.h3`
   text-shadow: 1px 1px 1px #fff;
   font-size: 1em;
@@ -80,13 +129,15 @@ const Title = styled.h3`
     font-size: 4em;
     margin: 60px 0 0 0;
   }
-`
+`;
+
 const Hr = styled.hr`
   border-width: 1px;
   border-color: black;
   opacity: 0%;
   width: 80%;
-`
+`;
+
 const Desc = styled.p`
   text-shadow: 1px 1px 1px #fff;
   font-size: 0.7em;
@@ -113,15 +164,16 @@ const Desc = styled.p`
     font-size: 2.8em;
     margin: 40px 0;
   }
-`
-const Button = styled.button`
+`;
+
+const Button = styled.button<{ isDemo: boolean }>`
   color: #ccc;
   font-weight: bold;
-  background: ${props => props.demo ? 'blue' : 'green'};
-  border: ${props => props.demo ? '1px solid darkblue' : '1px solid darkgreen'};
+  background: ${(p) => (p.isDemo ? "blue" : "green")};
+  border: ${(p) => (p.isDemo ? "1px solid darkblue" : "1px solid darkgreen")};
   border-radius: 4px;
   box-shadow: 1px 1px 3px #111;
-  &:hover { 
+  &:hover {
     cursor: pointer;
     color: #fff;
     box-shadow: none;
@@ -147,31 +199,4 @@ const Button = styled.button`
     font-size: 3em;
     margin: 0 20px;
   }
-`
-
-function Project(props) {  
-  const PROJECT_ID = `project-${props.id}`  
-  const CODE_ADDR = props.onGitHub ? `https://github.com/sgedye/${props.address}` : `https://github.com/sgedye/${props.address[0]}`;
-  const DEMO_ADDR = props.onGitHub ? `https://sgedye.github.io/${props.address}` : props.address[1];
-
-  return (
-    <StyledDiv id={PROJECT_ID}>
-      <Image src={props.img} alt={props.alt} />
-      <Description>
-        <Title>{props.title}</Title>
-        <Hr />
-        <Desc>{props.desc}</Desc>
-        <span>
-          <a href={CODE_ADDR} target="_blank" rel="noopener noreferrer">
-            <Button>CODE</Button>
-          </a>
-          <a href={DEMO_ADDR} target="_blank" rel="noopener noreferrer">
-            <Button demo>DEMO</Button>
-          </a>
-        </span>
-      </Description>
-    </StyledDiv>
-  )
-}
-
-export default Project
+`;

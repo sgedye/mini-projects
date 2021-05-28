@@ -1,23 +1,12 @@
-import React from 'react'
 // import { useState, useEffect } from 'react'
-import Header from './Components/Header'
-// import FilterButtons from './Components/FilterButtons'
-import Projects from './Components/Projects'
-import Footer from './Components/Footer'
+import { ThemeProvider } from "styled-components";
 
-import { ThemeProvider} from 'styled-components'
+import { Header, Footer, Projects } from "./components";
+// import FilterButtons from './components'
 
-const theme = {
-  boxSizing: 'border-box',
-  font: 'sans-serif',
-  textAlign: 'center',
-  padding: 0,
-  margin: 0
-}
-
-function App() {
+export const App: React.FC<{}> = () => {
   // const [selector, setSelector] = useState("all")
-  
+
   // console.log(selector)
   // useEffect(() => {
   //   // effect
@@ -40,7 +29,13 @@ function App() {
       <Projects />
       <Footer />
     </ThemeProvider>
-  )
-}
+  );
+};
 
-export default App;
+const theme = {
+  boxSizing: "border-box",
+  font: "sans-serif",
+  textAlign: "center",
+  padding: 0,
+  margin: 0,
+};
