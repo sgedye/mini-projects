@@ -22,6 +22,14 @@ import weather from "../imgs/weather.png";
 
 export default [
   {
+    title: "Clock",
+    img: clock,
+    alt: "CSS & JS Clock",
+    desc: "JavaScript, HTML, CSS",
+    onGitHub: true,
+    address: "clock",
+  },
+  {
     title: "Color Picker",
     img: color,
     alt: "Colour Picker",
@@ -57,7 +65,7 @@ export default [
     title: "Tetris",
     img: tetris,
     alt: "Typescript Tetris",
-    desc: "React, Typescript, Local Storage Styled Components, HTML, SCSS, CSS, Confetti",
+    desc: "React, Typescript, Local Storage, Styled Components, HTML, SCSS, CSS, React-Confetti",
     onGitHub: true,
     address: "tetris",
   },
@@ -124,14 +132,6 @@ export default [
     desc: "JavaScript, HTML, Bootstrap, CSS",
     onGitHub: true,
     address: "budget-app",
-  },
-  {
-    title: "Clock",
-    img: clock,
-    alt: "CSS & JS Clock",
-    desc: "JavaScript, HTML, CSS",
-    onGitHub: true,
-    address: "clock",
   },
   {
     title: "Meme Builder",

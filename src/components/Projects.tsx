@@ -1,30 +1,28 @@
-// import { useState, useEffect } from 'react';
 import styled from "styled-components";
-import "../styles/animate.css";
-import { Project } from ".";
+import { Project, FilterButtons } from ".";
 import ProjectData from "../data/project-data";
 
-// import FilterButtons from './FilterButtons';
+export const Projects: React.FC<{}> = () => {
+  // const [selector, setSelector] = useState("all")
 
-export const Projects = () => {
-  // let [selection, setSelection] = useState("all")
-  // const [refresh, setRefresh] = useState(false)
-
+  // console.log(selector)
   // useEffect(() => {
-  //   setSelection("react")
-  // }, [selection])
+  //   // effect
+  //   console.log(selector)
+  //   return () => {
+  //     // cleanup
+  //   }
+  // }, [selector])
 
-  // function changeSelection(e) {
+  // const handleSelector = e => {
   //   e.preventDefault()
-  //   console.log(e.target.value)
-  //   console.log('hi')
-  //   console.log(selection)
-  //   setSelection('javascript')
+  //   console.log(e.target, e.target.value)
+  //   setSelector('hi')
   // }
+
   return (
     <>
-      {/* <button onClick={(e) => changeSelection(e)}>hi</button>
-      <FilterButtons /> */}
+      {/* <FilterButtons /> */}
       <StyledGrid>
         {ProjectData
           // .filter(project => project.desc.toLowerCase().split(', ').includes(selection) || selection === 'all')

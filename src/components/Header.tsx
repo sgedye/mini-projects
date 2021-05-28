@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import "../styles/animate.css";
 
 export const Header: React.FC<{}> = () => {
   return (
