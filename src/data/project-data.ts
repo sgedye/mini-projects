@@ -3,7 +3,7 @@ import budget from "../imgs/budget.png";
 import calculator from "../imgs/calculator.png";
 import clock from "../imgs/clock.png";
 import contactForm from "../imgs/contact-form.png";
-import color from "../imgs/color.png";
+import colourSelector from "../imgs/colour-selector.png";
 // import counter from '../imgs/counter.png'
 import dragDrop from "../imgs/drag-n-drop.png";
 import drumKit from "../imgs/drum-kit.png";
@@ -30,8 +30,8 @@ export default [
     address: "clock",
   },
   {
-    title: "Color Picker",
-    img: color,
+    title: "Colour Picker",
+    img: colourSelector,
     alt: "Colour Picker",
     desc: "JavaScript, HTML, SCSS",
     onGitHub: true,
