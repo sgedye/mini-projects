@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mini-projects/static/css/main.3cdf71fd.chunk.css",
-    "main.js": "/mini-projects/static/js/main.67719cec.chunk.js",
-    "main.js.map": "/mini-projects/static/js/main.67719cec.chunk.js.map",
+    "main.js": "/mini-projects/static/js/main.077b9e75.chunk.js",
+    "main.js.map": "/mini-projects/static/js/main.077b9e75.chunk.js.map",
     "runtime-main.js": "/mini-projects/static/js/runtime-main.e57354c1.js",
     "runtime-main.js.map": "/mini-projects/static/js/runtime-main.e57354c1.js.map",
     "static/js/2.c141a8d8.chunk.js": "/mini-projects/static/js/2.c141a8d8.chunk.js",
@@ -29,12 +29,13 @@
     "static/media/svg-writing.bfca50fb.png": "/mini-projects/static/media/svg-writing.bfca50fb.png",
     "static/media/testimonialSlider.449d46c6.png": "/mini-projects/static/media/testimonialSlider.449d46c6.png",
     "static/media/tetris.f1e6c8c0.png": "/mini-projects/static/media/tetris.f1e6c8c0.png",
-    "static/media/weather.25731c16.png": "/mini-projects/static/media/weather.25731c16.png"
+    "static/media/weather.25731c16.png": "/mini-projects/static/media/weather.25731c16.png",
+    "static/media/webpack-typescript.1ff169a6.png": "/mini-projects/static/media/webpack-typescript.1ff169a6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e57354c1.js",
     "static/js/2.c141a8d8.chunk.js",
     "static/css/main.3cdf71fd.chunk.css",
-    "static/js/main.67719cec.chunk.js"
+    "static/js/main.077b9e75.chunk.js"
   ]
 }
