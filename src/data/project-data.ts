@@ -19,6 +19,7 @@ import svgWriting from "../imgs/svg-writing.png";
 import testimonials from "../imgs/testimonialSlider.png";
 import tetris from "../imgs/tetris.png";
 import weather from "../imgs/weather.png";
+import webpackTypescript from "../imgs/webpack-typescript.png";
 
 export default [
   {
@@ -116,6 +117,14 @@ export default [
     desc: "React, Axios, Styled Components",
     onGitHub: false,
     address: ["loading-skeleton", "https://loading-skeleton.netlify.app/"],
+  },
+  {
+    title: "Webpack Boilerplate",
+    img: webpackTypescript,
+    alt: "Webpack Typescript Bolierplate Project",
+    desc: "Webpack 5, Babel 7, React 17, Typescript 4, Bootstrap 5, SCSS, HTML",
+    onGitHub: false,
+    address: ["webpack-typescript", "https://webpack-ts-react-boilerplate.netlify.app"],
   },
   {
     title: "Testimonials",
