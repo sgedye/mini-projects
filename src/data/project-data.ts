@@ -10,6 +10,7 @@ import drumKit from "../imgs/drum-kit.png";
 import fakeGoogle from "../imgs/fake-google.png";
 import grandmas from "../imgs/grandmas.png";
 import loading from "../imgs/loading-animation.png";
+import markdownPreviewer from "../imgs/markdown-previewer.png";
 import meme from "../imgs/meme-builder.png";
 import pomodoro from "../imgs/pomodoro.png";
 import quotes from "../imgs/quotes.png";
@@ -55,12 +56,12 @@ export default [
     address: "pomodoro",
   },
   {
-    title: "Drum Machine",
-    img: drumKit,
-    alt: "Drum Machine",
-    desc: "React, Styled Components, Hooks, HTML, CSS, MouseTrap",
-    onGitHub: true,
-    address: "drum-machine",
+    title: "Markdown Previewer",
+    img: markdownPreviewer,
+    alt: "Markdown Previewer",
+    desc: "Webpack, React, Typescript, marked, styled-components, SCSS",
+    onGitHub: false,
+    address: ["markdown-previewer", "https://display-markdown.netlify.app"],
   },
   {
     title: "Tetris",
@@ -109,6 +110,14 @@ export default [
     desc: "HTML, CSS, JavaScript",
     onGitHub: true,
     address: "grandmas-sweets",
+  },
+  {
+    title: "Drum Machine",
+    img: drumKit,
+    alt: "Drum Machine",
+    desc: "React, Styled Components, Hooks, HTML, CSS, MouseTrap",
+    onGitHub: true,
+    address: "drum-machine",
   },
   {
     title: "Loading Animation",
